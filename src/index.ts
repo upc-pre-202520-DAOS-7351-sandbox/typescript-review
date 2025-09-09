@@ -7,6 +7,7 @@ try{
     const usdCurrencyCode = "USD" as const;
     const usdCurrency = new Currency(usdCurrencyCode);
     console.log(usdCurrency.toString());
+      
 
 } catch(e){
     console.log(e);
